@@ -69,7 +69,7 @@ Vue Query Documentation: https://tanstack.com/query/latest/docs/framework/vue/in
 
 - Allows flexible configuration of query options such as refresh intervals and data caching.
 
-- Integrates well with Vuex for advanced application state management.
+- Integrates well with Vuex and Pinia for advanced application state management.
 
 ## Installation and Initialization
 
