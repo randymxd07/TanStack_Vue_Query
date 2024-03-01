@@ -35,3 +35,10 @@ jobs:
 
     - name: Run tests
       run: npm run test:unit
+
+    - name: Check test status
+      run: |
+        if [ ${{ job.status }} != 'success' ]; then
+          echo "Tests failed. Exiting."
+          exit 1
+        fi
