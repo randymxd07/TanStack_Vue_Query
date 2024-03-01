@@ -25,9 +25,6 @@ jobs:
         WITH_V: true
         DEFAULT_BUMP: major
 
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
