@@ -1,7 +1,7 @@
 import pokeApi from "@/api/pokeApi";
-import type { Pokemon } from "@/interfaces/pokemon.interface";
+import type { Pokemons } from "@/interfaces/pokemon.interface";
 
-export const getPokemon = async () => {
-    const { data } = await pokeApi.get<Pokemon>('pokemon/ditto');
+export const getPokemons = async () => {
+    const { data } = await pokeApi.get<Pokemons>('pokemon');
     return data;
 };

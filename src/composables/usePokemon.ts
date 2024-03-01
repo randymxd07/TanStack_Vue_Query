@@ -1,17 +1,15 @@
-import { getPokemon } from '@/helpers/getPokemons';
-import type { Pokemon } from '@/interfaces/pokemon.interface';
+import { getPokemons } from '@/helpers/getPokemons';
 import { useQuery } from '@tanstack/vue-query';
-import { onMounted, ref } from 'vue';
 
 export const usePokemon = () => {
 
-    const { isPending, isFetching, isError, data:pokemon, error } = useQuery({
-        queryKey: ['pokemon'],
-        queryFn: getPokemon,
+    const { isPending, isFetching, isError, data:pokemons, error } = useQuery({
+        queryKey: ['pokemons'],
+        queryFn: getPokemons,
     })
 
     return {
-        pokemon,
+        pokemons,
     }
 
 }

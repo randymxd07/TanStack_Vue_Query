@@ -1,12 +1,15 @@
 <script setup lang="ts">
 import { usePokemon } from '../composables/usePokemon';
-
-const { pokemon } = usePokemon();
+const { pokemons } = usePokemon();
 </script>
 
 <template>
   <div>
-    <h1>Pokemon</h1>
-    <h2>Nombre: {{ pokemon?.name }}</h2>
+    <h1>Pokemon List:</h1>
+    <ul>
+      <li v-for="pokemon in pokemons?.results">
+        {{ pokemon.name }}
+      </li>
+    </ul>
   </div>
 </template>
