@@ -23,7 +23,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         WITH_V: true
-        DEFAULT_BUMP: major
+        DEFAULT_BUMP: minor
 
     - name: Set up Node.js
       uses: actions/setup-node@v2
