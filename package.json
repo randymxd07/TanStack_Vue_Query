@@ -15,8 +15,8 @@
     "@tanstack/vue-query": "^5.29.0",
     "axios": "^1.6.8",
     "pinia": "^2.1.7",
-    "vue": "^3.4.15",
-    "vue-router": "^4.3.2"
+    "vue": "^3.4.23",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
@@ -28,8 +28,8 @@
     "jsdom": "^24.0.0",
     "npm-run-all2": "^6.1.1",
     "typescript": "~5.4.5",
-    "vite": "^5.2.8",
+    "vite": "^5.2.10",
     "vitest": "^1.5.0",
-    "vue-tsc": "^2.0.13"
+    "vue-tsc": "^2.0.14"
   }
 }
