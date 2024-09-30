@@ -425,7 +425,7 @@
     de-indent "^1.0.2"
     he "^1.2.0"
 
-"@vue/devtools-api@^6.5.0", "@vue/devtools-api@^6.5.1", "@vue/devtools-api@^6.6.3":
+"@vue/devtools-api@^6.5.1", "@vue/devtools-api@^6.6.3":
   version "6.6.3"
   resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.6.3.tgz#b23a588154cba8986bba82b6e1d0248bde3fd1a0"
   integrity sha512-0MiMsFma/HqA6g3KLKn+AGpL1kgKhFWszC9U29NfpWK5LE7bjeXxySWJrOJ77hBz+TBrBQ7o4QJqbPbqbs8rJw==
@@ -1184,13 +1184,13 @@ pidtree@^0.6.0:
   resolved "https://registry.yarnpkg.com/pidtree/-/pidtree-0.6.0.tgz#90ad7b6d42d5841e69e0a2419ef38f8883aa057c"
   integrity sha512-eG2dWTVw5bzqGRztnHExczNxt5VGsE6OwTeCG3fdUf9KBsZzO3R5OIIIzWR+iZA0NtZ+RDVdaoE2dK1cn6jH4g==
 
-pinia@^2.1.7:
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.1.7.tgz#4cf5420d9324ca00b7b4984d3fbf693222115bbc"
-  integrity sha512-+C2AHFtcFqjPih0zpYuvof37SFxMQ7OEG2zV9jRI12i9BOy3YQVAHwdKtyyc8pDcDyIc33WCIsZaCFWU7WWxGQ==
+pinia@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.2.2.tgz#dcf576c9a778187d1542c5e6a9f8b8cd5b6aea14"
+  integrity sha512-ja2XqFWZC36mupU4z1ZzxeTApV7DOw44cV4dhQ9sGwun+N89v/XP7+j7q6TanS1u1tdbK4r+1BUx7heMaIdagA==
   dependencies:
-    "@vue/devtools-api" "^6.5.0"
-    vue-demi ">=0.14.5"
+    "@vue/devtools-api" "^6.6.3"
+    vue-demi "^0.14.10"
 
 pkg-types@^1.0.3:
   version "1.0.3"
@@ -1562,7 +1562,7 @@ vue-component-type-helpers@^2.0.0:
   resolved "https://registry.yarnpkg.com/vue-component-type-helpers/-/vue-component-type-helpers-2.0.6.tgz#41737970f70841bc1b82391afa364da0f4ee2d76"
   integrity sha512-qdGXCtoBrwqk1BT6r2+1Wcvl583ZVkuSZ3or7Y1O2w5AvWtlvvxwjGhmz5DdPJS9xqRdDlgTJ/38ehWnEi0tFA==
 
-vue-demi@>=0.14.5, vue-demi@^0.14.10:
+vue-demi@^0.14.10:
   version "0.14.10"
   resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.14.10.tgz#afc78de3d6f9e11bf78c55e8510ee12814522f04"
   integrity sha512-nMZBOwuzabUO0nLgIcc6rycZEebF6eeUfaiQx9+WSk8e29IbLvPU9feI6tqW4kTo3hvoYAJkMh8n8D0fuISphg==
