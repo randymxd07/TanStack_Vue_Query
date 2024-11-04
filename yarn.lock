@@ -1069,10 +1069,10 @@ pidtree@^0.6.0:
   resolved "https://registry.yarnpkg.com/pidtree/-/pidtree-0.6.0.tgz#90ad7b6d42d5841e69e0a2419ef38f8883aa057c"
   integrity sha512-eG2dWTVw5bzqGRztnHExczNxt5VGsE6OwTeCG3fdUf9KBsZzO3R5OIIIzWR+iZA0NtZ+RDVdaoE2dK1cn6jH4g==
 
-pinia@^2.2.4:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.2.4.tgz#79b63b231a3da80968ab58f7721f575fe2c509ac"
-  integrity sha512-K7ZhpMY9iJ9ShTC0cR2+PnxdQRuwVIsXDO/WIEV/RnMC/vmSoKDTKW/exNQYPI+4ij10UjXqdNiEHwn47McANQ==
+pinia@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.2.6.tgz#ff93f35b8c02033eaedc8c92ad5f10f215d6c804"
+  integrity sha512-vIsR8JkDN5Ga2vAxqOE2cJj4VtsHnzpR1Fz30kClxlh0yCHfec6uoMeM3e/ddqmwFUejK3NlrcQa/shnpyT4hA==
   dependencies:
     "@vue/devtools-api" "^6.6.3"
     vue-demi "^0.14.10"
