@@ -29,7 +29,7 @@
     "npm-run-all2": "^7.0.2",
     "typescript": "~5.8.2",
     "vite": "^6.2.0",
-    "vitest": "^3.0.8",
+    "vitest": "^3.0.9",
     "vue-tsc": "^2.2.8"
   }
 }
