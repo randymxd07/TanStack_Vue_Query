@@ -12,7 +12,7 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
-    "@tanstack/vue-query": "^5.71.10",
+    "@tanstack/vue-query": "^5.81.2",
     "axios": "^1.8.4",
     "pinia": "^3.0.1",
     "vue": "^3.5.13",
